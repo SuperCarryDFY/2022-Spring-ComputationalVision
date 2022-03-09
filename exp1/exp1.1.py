@@ -13,6 +13,7 @@ draw.text((450,80),'19120199-戴枫源',(255,255,0),font=font)
 
 cv2charimg = cv.cvtColor(np.array(pilimg),cv.COLOR_RGB2BGR)
 cv.imshow('image',cv2charimg)
+
 k = cv.waitKey(0)
 if k== 27:
     cv.destroyAllWindows()
