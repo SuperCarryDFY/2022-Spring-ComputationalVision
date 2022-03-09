@@ -3,7 +3,7 @@ from PIL import Image,ImageDraw,ImageFont
 import numpy as np
 
 # 加载彩色灰度图像
-img = cv.imread('chandler.PNG',0)
+img = cv.imread('chandler.PNG',-1)
 cv2img = cv.cvtColor(img,cv.COLOR_BGR2RGB)
 pilimg = Image.fromarray(cv2img)
 
