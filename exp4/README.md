@@ -14,3 +14,4 @@ face_recognition.py为代码，haarcascade_frontalface_alt.xml为opencv人脸检
 以上为原文
 
 copy上面博主的代码然后做了修改完成实验
+

@@ -14,7 +14,7 @@ num = 10
 def LoadData(): #载入数据集
     data = []
     label = []
-    path_cwd = "ORL_dataset/"
+    path_cwd = "../ORL_dataset/"
     for j in range(1, 41):
         path = path_cwd + 's' + str(j)
         for number in range(1,num+1):
